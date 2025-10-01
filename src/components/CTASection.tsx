@@ -22,7 +22,7 @@ export const CTASection = () => {
               className="h-14 sm:h-16 md:h-18 w-full px-4 sm:px-10 md:px-16 text-sm sm:text-base md:text-lg lg:text-xl rounded-xl md:rounded-2xl group"
             >
               <span className="flex items-center justify-center gap-1 sm:gap-2 min-w-0">
-                <span className="truncate">👉 Apply Now & Start Your Journey</span>
+                <span className="truncate">👉 Apply Now</span>
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0 group-hover:translate-x-2 transition-transform" />
               </span>
             </Button>
