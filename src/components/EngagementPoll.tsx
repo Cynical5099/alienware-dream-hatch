@@ -23,29 +23,29 @@ export const EngagementPoll = () => {
   };
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-4xl">
-        <div className="bg-card/50 backdrop-blur-sm border border-primary/30 rounded-3xl p-8 md:p-12 glow-subtle">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-glow">
+        <div className="bg-card/50 backdrop-blur-sm border border-primary/30 rounded-2xl md:rounded-3xl p-6 md:p-12 glow-subtle">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 md:mb-8 text-glow">
             What kind of role excites you most?
           </h2>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 gap-3 md:gap-4">
             {options.map((option) => (
               <button
                 key={option.value}
                 onClick={() => handleSelect(option.value)}
-                className={`p-6 rounded-xl border-2 transition-all duration-300 hover:scale-105 ${
+                className={`p-4 md:p-6 rounded-lg md:rounded-xl border-2 transition-all duration-300 active:scale-95 md:hover:scale-105 min-h-[100px] md:min-h-0 ${
                   selected === option.value
                     ? 'border-primary bg-primary/20 glow-cyan'
                     : 'border-border bg-background/50 hover:border-primary/50'
                 }`}
               >
-                <div className="flex flex-col items-center gap-3">
-                  <option.icon className={`w-8 h-8 ${
+                <div className="flex flex-col items-center gap-2 md:gap-3">
+                  <option.icon className={`w-6 h-6 md:w-8 md:h-8 ${
                     selected === option.value ? 'text-primary' : 'text-muted-foreground'
                   }`} />
-                  <span className={`font-semibold text-sm md:text-base ${
+                  <span className={`font-semibold text-xs sm:text-sm md:text-base ${
                     selected === option.value ? 'text-primary' : 'text-foreground'
                   }`}>
                     {option.label}
@@ -56,8 +56,8 @@ export const EngagementPoll = () => {
           </div>
           
           {selected && (
-            <div className="mt-8 text-center animate-fade-in-up">
-              <p className="text-secondary text-lg font-semibold mb-4">
+            <div className="mt-6 md:mt-8 text-center animate-fade-in-up">
+              <p className="text-secondary text-base md:text-lg font-semibold mb-4">
                 Great choice! Let's get you started 🚀
               </p>
             </div>
