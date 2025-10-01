@@ -29,12 +29,13 @@ export const Hero = () => {
         </div>
         
         {/* Main Headline */}
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 animate-fade-in-up text-glow leading-tight px-2">
-          🚀 Land Your Dream Job with Alienware
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 animate-fade-in-up text-glow leading-tight px-4">
+          <span className="inline-block">🚀 Land Your Dream Job</span>{" "}
+          <span className="inline-block">with Alienware</span>
         </h1>
         
         {/* Subheadline */}
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-muted-foreground max-w-3xl mx-auto animate-fade-in-up px-4">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-muted-foreground max-w-3xl mx-auto animate-fade-in-up px-4 leading-relaxed">
           Turn your passion for gaming into a career you'll love.
         </p>
         
@@ -59,9 +60,11 @@ export const Hero = () => {
           <Button 
             variant="cta" 
             size="lg" 
-            className="h-12 sm:h-14 md:h-16 w-full px-6 sm:px-8 md:px-12 text-base sm:text-lg md:text-xl rounded-xl"
+            className="h-14 sm:h-16 md:h-18 w-full px-4 sm:px-8 md:px-12 text-sm sm:text-base md:text-xl rounded-xl"
           >
-            <span className="truncate">👉 Apply Now & Start Your Journey</span>
+            <span className="flex items-center justify-center gap-2 min-w-0">
+              <span className="truncate">👉 Apply Now & Start Your Journey</span>
+            </span>
           </Button>
         </a>
       </div>

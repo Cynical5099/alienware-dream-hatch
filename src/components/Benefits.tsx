@@ -19,7 +19,7 @@ export const Benefits = () => {
   return (
     <section className="py-12 md:py-20 px-4 bg-card/20">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-10 md:mb-16 text-glow">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-10 md:mb-16 text-glow leading-tight">
           What's In It For You?
         </h2>
         

@@ -26,7 +26,7 @@ export const EngagementPoll = () => {
     <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="bg-card/50 backdrop-blur-sm border border-primary/30 rounded-2xl md:rounded-3xl p-6 md:p-12 glow-subtle">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 md:mb-8 text-glow">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 md:mb-8 text-glow leading-tight px-2">
             What kind of role excites you most?
           </h2>
           

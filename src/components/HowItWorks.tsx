@@ -27,10 +27,10 @@ export const HowItWorks = () => {
   return (
     <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 md:mb-4 text-glow">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 md:mb-4 text-glow leading-tight">
           ➡️ How It Works
         </h2>
-        <p className="text-lg md:text-xl text-center text-muted-foreground mb-10 md:mb-16">
+        <p className="text-base sm:text-lg md:text-xl text-center text-muted-foreground mb-10 md:mb-16">
           (So Simple!)
         </p>
         
